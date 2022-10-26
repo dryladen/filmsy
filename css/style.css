@@ -1,0 +1,17 @@
+.footer{
+    height: 50px;
+    margin-bottom: 0px;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.bg-blue {
+    background-color: #4d63e4;
+}
+
+#summary > p {
+    margin: 20px 40px;
+    text-indent: 50px;
+    text-align: justify;
+}
