@@ -6,7 +6,7 @@ $(document).ready(function () {
                 <a href=`+ data.url +` id="movie-detail" data-bs-toggle="modal" data-bs-target="#exampleModal" data-id="`+ data.externals['imdb'] +`">
                     <img src="` + data.image['medium'] + `" class="img-fluid rounded">
                 </a>
-                <h5>`+data.name+` - `+data.status+`</h5>
+                <h5 class='mt-2' >`+data.name+` - `+data.status+`</h5>
             </div>
       `);
     });
